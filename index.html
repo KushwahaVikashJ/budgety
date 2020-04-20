@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+        <link type="text/css" rel="stylesheet" href="bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Budgety</title>
+    </head>
+    <body>
+    <div class="container-fluid">    
+        <div class="top">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="budget">
+                        <div class="budget__title">
+                            <strong>Available Budget in <span class="budget__title--month">%Month%</span></strong>
+                        </div>
+                        
+                        <div class="budget__value">+ 2,345.64</div>
+                        
+                        <div class="budget__income clearfix">
+                            <div class="budget__income--text"><strong>Income</strong></div>
+                            <div class="right">
+                                <div class="budget__income--value">+ 4,300.00</div>
+                                <div class="budget__income--percentage">&nbsp;</div>
+                            </div>
+                        </div>
+                        
+                        <div class="budget__expenses clearfix">
+                            <div class="budget__expenses--text"><strong>Expenses</strong></div>
+                            <div class="right clearfix">
+                                <div class="budget__expenses--value">- 1,954.36</div>
+                                <div class="budget__expenses--percentage">45%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <select class="add__type">
+                                <option value="inc" selected>+</option>
+                                <option value="exp">-</option>
+                            </select>
+                            <input type="text" class="add__description" placeholder="Add description">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <input type="number" class="add__value" placeholder="Value">
+                            <p class="add__btn"><i class="fa fa-check-circle" aria-hidden="true"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid containers clearfix">
+               <div class="row">
+                    <div class="col-xs-6">
+                        <div class="income">
+                            <h2 class="icome__title"><strong>Income</strong></h2>
+                            <div class="income__list">
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">     
+                         <div class="expenses">
+                            <h2 class="expenses__title"><strong>Expenses</strong></h2>
+                            <div class="expenses__list">
+                            
+
+                            </div>
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+
+        </div>
+    </div>    
+    <script src="app.js"></script>
+    </body>
+</html>
