@@ -6,4 +6,4 @@
   
   - Also you can view the website on browser by clicking on the below link:  
   
-    ### open[https://vicks1999.github.io/Budgety/]
+    ### open[https://kushwahavikashj.github.io/Budgety/]
